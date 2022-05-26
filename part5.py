@@ -23,3 +23,14 @@ not a month
 '''
 
 #start writing your code below
+
+month = input("Enter a month in lowercase:")
+
+if month == "january" or "march" or "may" or "july" or "august" or "october" or "december":
+  print ("31")
+elif month == "april" or "june" or "september" or "november":
+  print ("30")
+elif month == "february":
+  print ("28 or 29")
+else:
+  print ("That's not a month")
